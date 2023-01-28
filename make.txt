@@ -1,0 +1,105 @@
+for i in lib intro sockets advio daemons datafiles db environ fileio ipc1 ipc2 proc pty relation signals standards stdio termios threadctl threads printer exercises; do \
+	(cd $i && echo "making $i" && make ) || exit 1; \
+done
+making lib
+make[1]: Entering directory '/root/apue.3e/lib'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/apue.3e/lib'
+making intro
+make[1]: Entering directory '/root/apue.3e/intro'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/apue.3e/intro'
+making sockets
+make[1]: Entering directory '/root/apue.3e/sockets'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/apue.3e/sockets'
+making advio
+make[1]: Entering directory '/root/apue.3e/advio'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/apue.3e/advio'
+making daemons
+make[1]: Entering directory '/root/apue.3e/daemons'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/apue.3e/daemons'
+making datafiles
+make[1]: Entering directory '/root/apue.3e/datafiles'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/apue.3e/datafiles'
+making db
+make[1]: Entering directory '/root/apue.3e/db'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/apue.3e/db'
+making environ
+make[1]: Entering directory '/root/apue.3e/environ'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/apue.3e/environ'
+making fileio
+make[1]: Entering directory '/root/apue.3e/fileio'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/apue.3e/fileio'
+making ipc1
+make[1]: Entering directory '/root/apue.3e/ipc1'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/apue.3e/ipc1'
+making ipc2
+make[1]: Entering directory '/root/apue.3e/ipc2'
+for i in open opend open.fe opend.fe; do \
+	(cd $i && make ) || exit 1; \
+done
+make[2]: Entering directory '/root/apue.3e/ipc2/open'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/root/apue.3e/ipc2/open'
+make[2]: Entering directory '/root/apue.3e/ipc2/opend'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/root/apue.3e/ipc2/opend'
+make[2]: Entering directory '/root/apue.3e/ipc2/open.fe'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/root/apue.3e/ipc2/open.fe'
+make[2]: Entering directory '/root/apue.3e/ipc2/opend.fe'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/root/apue.3e/ipc2/opend.fe'
+make[1]: Leaving directory '/root/apue.3e/ipc2'
+making proc
+make[1]: Entering directory '/root/apue.3e/proc'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/apue.3e/proc'
+making pty
+make[1]: Entering directory '/root/apue.3e/pty'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/apue.3e/pty'
+making relation
+make[1]: Entering directory '/root/apue.3e/relation'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/apue.3e/relation'
+making signals
+make[1]: Entering directory '/root/apue.3e/signals'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/apue.3e/signals'
+making standards
+make[1]: Entering directory '/root/apue.3e/standards'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/apue.3e/standards'
+making stdio
+make[1]: Entering directory '/root/apue.3e/stdio'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/apue.3e/stdio'
+making termios
+make[1]: Entering directory '/root/apue.3e/termios'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/apue.3e/termios'
+making threadctl
+make[1]: Entering directory '/root/apue.3e/threadctl'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/apue.3e/threadctl'
+making threads
+make[1]: Entering directory '/root/apue.3e/threads'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/apue.3e/threads'
+making printer
+make[1]: Entering directory '/root/apue.3e/printer'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/apue.3e/printer'
+making exercises
+make[1]: Entering directory '/root/apue.3e/exercises'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/apue.3e/exercises'
